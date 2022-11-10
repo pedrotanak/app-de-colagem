@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>App Minha selfie</title>
+    <title>App de Colagem</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <center>
-            <h1>App Selfie por voz <img src="selfie.jpeg" id="logo_img">
+            <h1>App Selfie por voz <img src="images (1).jpeg" id="logo_img">
 
             </h1>
             <hr>
@@ -23,18 +23,22 @@
             </h4>
 
             <div class="form-group">
-                <h3>Diga "Tire minha selfie"</h3>
+                <h3>Diga "Minha selfie"</h3>
                 <label>Sua saída de voz : </label>
                 <textarea  id="textbox" class="form-control" readonly="true"></textarea>
             </div>
                <button onclick="botao()" class="btn btn-primary">Iniciar</button>
-            <p>Pressione o botão Iniciar</p>
+    
 
             <label>Sua webcam : </label>
             <div id="camera"></div>
             <br>
-
-            <label>Sua selfie será exibida aqui: </label>
+          
+            <label>Suas selfies serão exibidas aqui: </label>
+              <div id="resultado"></div>
+              <br>
+              <div id="resultado"></div>
+              <br>  
               <div id="resultado"></div>
         </center>
     </div>
